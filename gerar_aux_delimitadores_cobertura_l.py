@@ -8,8 +8,10 @@ Descrição:
    mantendo todas as linhas que estão FORA dessas áreas.
 3. Extrai os contornos (anéis externos e internos/buracos) dos polígonos de
    'area_edificada_area' e 'massa_dagua_area' e adiciona como delimitadores.
-4. Gera a nova camada de linhas: 'aux_delimitadores_cobertura_l'.
 """
+
+if __name__ != '__main__':
+    raise ImportError("Script procedural para execução direta.")
 
 import math
 from qgis.core import (

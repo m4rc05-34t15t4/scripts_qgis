@@ -10,9 +10,10 @@ Descrição:
    - Ignora centróides de massa d'água e área edificada (já geradas).
    - Cria uma camada de polígonos para cada tipo de centróide (ex: vegetacao_area, etc.).
    - Se o polígono estiver VAZIO (sem centróide), envia para 'flags_areas_vazias_a'.
-   - Se o polígono tiver MAIS DE UM centróide, gera pontos em 'flags_centroide_duplo_p'
-     e classifica o polígono com base em um dos centróides (evitando buracos na cobertura).
 """
+
+if __name__ != '__main__':
+    raise ImportError("Script procedural para execução direta.")
 
 import math
 import processing

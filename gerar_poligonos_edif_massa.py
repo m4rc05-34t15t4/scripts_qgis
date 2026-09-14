@@ -1,3 +1,6 @@
+if __name__ != '__main__':
+    raise ImportError("Script procedural para execução direta.")
+
 import math
 import processing
 from qgis.core import (
