@@ -17,8 +17,8 @@
 # - Mostra progresso periodicamente
 # - Erros são mostrados imediatamente
 # - centroide_ilha_p -> elemnat_ilha_a
-# ============================================================
-
+if __name__ != '__main__':
+    raise ImportError("Script procedural para execução direta.")
 
 from qgis.core import (
     QgsProject,
